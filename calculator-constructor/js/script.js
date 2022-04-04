@@ -15,7 +15,7 @@ function Calculator(value1, value2) {
     }
 }
 
-let calculator = new Calculator();
+const calculator = new Calculator();
 calculator.read();
 
 alert("Sum=" + calculator.sum());
